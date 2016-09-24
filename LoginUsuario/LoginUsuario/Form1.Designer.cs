@@ -70,13 +70,13 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.BackColor = System.Drawing.Color.Maroon;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Lucida Console", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Teal;
-            this.button3.Location = new System.Drawing.Point(145, 354);
+            this.button3.Location = new System.Drawing.Point(70, 354);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(212, 38);
+            this.button3.Size = new System.Drawing.Size(348, 38);
             this.button3.TabIndex = 5;
             this.button3.Text = "Entrar";
             this.button3.UseVisualStyleBackColor = false;

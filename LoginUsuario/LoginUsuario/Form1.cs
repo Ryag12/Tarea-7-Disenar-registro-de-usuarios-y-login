@@ -16,7 +16,7 @@ namespace LoginUsuario
         public Form1()
         {
             InitializeComponent();
-            System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
+            GraphicsPath gp = new GraphicsPath();
             gp.AddEllipse(0, 0, pictureBox1.Width - 1, pictureBox1.Height - 1);
             Region rg = new Region(gp);
             pictureBox1.Region = rg;
